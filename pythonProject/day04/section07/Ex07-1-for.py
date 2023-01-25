@@ -7,8 +7,8 @@ for문
 for 변수 in 반복가능개체 :
     반복실행문
 '''
-
-pwd = 'abcdefg55'
+#pwd = 'abcdefg55'
+pwd = input('비밀번호를 입력하세요 >>> ')
 
 ch_count = 0   #7
 num_count = 0   #2
