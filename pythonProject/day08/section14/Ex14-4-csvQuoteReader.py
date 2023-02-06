@@ -5,7 +5,7 @@ member_list = []
 with open('회원명단.csv','rt', encoding='UTF-8') as file:
     file.readline()
     while True:
-        line = file.readline()
+        line = file.readline()   #첫줄제거용
         if not line:
             break
         member = line.split(',')
