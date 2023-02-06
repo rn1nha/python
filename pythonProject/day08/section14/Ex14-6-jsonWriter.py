@@ -54,7 +54,7 @@ dict_list =[
         ]
     }
 ]
-json_string = json.dumps(dict_list, indent=4, ensure_ascii=False)  #indent 들여쓰기
+json_string = json.dumps(dict_list, indent=4, ensure_ascii=False)  #indent 들여쓰기 #ensure_aschii=false 한글읽기
 with open('dictlist.json', 'w', encoding='UTF-8') as file:
     file.write(json_string)
 print('dictlist.json 파일이 생성되었습니다.')
