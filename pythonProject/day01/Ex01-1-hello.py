@@ -1,4 +1,4 @@
 '''
-파일명 : Ex01-1-hello.py
+파일명 : Ex01-BigO-hello.py
 '''
 print('Hello, Python')

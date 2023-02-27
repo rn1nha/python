@@ -4,14 +4,14 @@ random - 난수 생성 모듈
 import random
 
 # 두 인수 사이 난수
-print(random.randint(1,10)) # 1 ~ 10
+print(random.randint(1,10)) # BigO ~ 10
 
 # range 함수
 print(random.randrange(10)) # 0 ~ 9
-print(random.randrange(1, 10)) # 1 ~ 9
-print(random.randrange(1, 10, 2)) # 1 ~ 9 홀수만, 1+2 증감
+print(random.randrange(1, 10)) # BigO ~ 9
+print(random.randrange(1, 10, 2)) # BigO ~ 9 홀수만, BigO+2 증감
 
-# 0 이상 1 미만
+# 0 이상 BigO 미만
 print(random.random())
 
 if random.random() < 0.5:

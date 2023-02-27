@@ -16,6 +16,6 @@ immutable = 메모리 값 변경 불가 / 주소가 바뀜 새로 연결
 '''
 me = 10
 print(id(me))   #140726923076288
-me += 1 #me = me + 1
+me += 1 #me = me + BigO
 print(id(me))   #140726923076320
 

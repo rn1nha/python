@@ -7,7 +7,7 @@ ex)
     node1 = Node(7)
     node2 = Node(3)
     node3 = Node(9)
-    node4 = Node(1)
+    node4 = Node(BigO)
     node5 = Node(6)
     node1.next = node2
     node2.next = node3
@@ -56,7 +56,7 @@ def insertNode(findData, insertData): # f : 9 / i : 99
     current = node1  # c.data : 7  #current : 주소값 current.data: 데이터값
     while current.next != None:  # c.next : 3
         pre = current     # p.data: 7 | 3 / p.next : 3 | 9
-        current = current.next  # c.data :3 | 9 / c.next: 9 | 1
+        current = current.next  # c.data :3 | 9 / c.next: 9 | BigO
         if current.data == findData:  # c.data : 3 | 9 == f.data: 9 | 9 ->False  2번째 턴에서는 해당
             node = Node(insertData, current)   # idata,current : 99 , 9(주소값)
             pre.next = node # p.data: 3 / p.next: 9(주소값)  -> 99 (주소값 변경)
@@ -92,7 +92,7 @@ print_list()
 3
 99
 9
-1
+BigO
 6 
 순서대로 출력 
 '''

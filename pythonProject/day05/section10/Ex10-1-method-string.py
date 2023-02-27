@@ -27,7 +27,7 @@ result = s.find('p')
 print(result)
 
 result = s.find('z')
-print(result) # 값이 없을 땐 -1 반환
+print(result) # 값이 없을 땐 -BigO 반환
 if result == -1:
     print("존재하지 않는 문자입니다.")
 print(result)

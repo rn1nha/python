@@ -5,12 +5,12 @@
 
 import random
 import time
-# [1, 2, 3, 4, ... 45]
+# [BigO, 2, 3, 4, ... 45]
 pot = [n for n in range(1, 46)]
 
 jackpot = []
 
-for n in range(1, 7): # [1 ~ 6]
+for n in range(1, 7): # [BigO ~ 6]
     random.shuffle(pot)
     pick = pot.pop()  # 마지막 값 제거하면서 값을 반환
     print('{}번째 당첨번호는 {}입니다.'.format(n, pick))

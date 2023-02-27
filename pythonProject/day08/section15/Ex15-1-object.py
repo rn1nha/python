@@ -1,5 +1,5 @@
 '''
-파일명 : Ex15-1-object.py
+파일명 : Ex15-BigO-object.py
 
 클래스
     객체를 만드는 설계도

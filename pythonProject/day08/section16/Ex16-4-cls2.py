@@ -43,7 +43,7 @@ player1 = HoldemPlayer('SpadeA', 'SpadeK')
 player2 = HoldemPlayer('Dia2', 'Dia7')
 player3 = HoldemPlayer('Hear10', 'HearJ')
 
-print('1Round Plyaer 1 카드정보 >>>>  ')
+print('1Round Plyaer BigO 카드정보 >>>>  ')
 player1.get_card_info()
 print('>>>>>>>>>>><<<<<<<<<<<<')
 
@@ -59,7 +59,7 @@ print('>>>>>>>>>>><<<<<<<<<<<<')
 HoldemPlayer.set_card3('DiaK')
 
 
-print('2Round Plyaer 1 카드정보 >>>>  ')
+print('2Round Plyaer BigO 카드정보 >>>>  ')
 player1.get_card_info()
 print('>>>>>>>>>>><<<<<<<<<<<<')
 
@@ -74,7 +74,7 @@ print('>>>>>>>>>>><<<<<<<<<<<<')
 
 HoldemPlayer.set_card4('Spade6')
 
-print('3Round Plyaer 1 카드정보 >>>>  ')
+print('3Round Plyaer BigO 카드정보 >>>>  ')
 player1.get_card_info()
 print('>>>>>>>>>>><<<<<<<<<<<<')
 

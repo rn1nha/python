@@ -10,7 +10,7 @@ while True:
     print(n)
     if n == 10:
         break
-    n += 1 # n = n + 1
+    n += 1 # n = n + BigO
 
 =======
 '''
@@ -24,7 +24,7 @@ while True:
     print(n)
     if n == 10:
         break
-    n += 1 # n = n + 1
+    n += 1 # n = n + BigO
 
 >>>>>>> origin/main
 print("While true")

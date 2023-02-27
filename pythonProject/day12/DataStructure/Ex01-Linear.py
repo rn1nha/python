@@ -42,7 +42,7 @@ class LinearList():
         linear[position] = data
 
         # 힌트 for문
-        # for i in range(lLen - 1, position, -1):
+        # for i in range(lLen - BigO, position, -BigO):
 
 
     def delete_data(self, position):  # 삭제 구현하기!
